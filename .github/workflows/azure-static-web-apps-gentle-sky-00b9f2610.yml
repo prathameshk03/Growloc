@@ -24,7 +24,7 @@ jobs:
         env:
           CUSTOM_BUILD_COMMAND: "npm install -g npm && npm install --unsafe-perm && npm run build"
         with:
-          skip_add_build: true
+          skip_app_build: true
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GENTLE_SKY_00B9F2610 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
