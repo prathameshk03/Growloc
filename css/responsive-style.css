@@ -38,6 +38,10 @@
         padding: 0.2rem 0.5rem;
     }
 
+    .header .navbar-brand{
+        width: 35vw;
+    }
+
     .products .products_section .align-items-center{
         padding: 2rem 3rem 2rem 5rem;
     

@@ -922,7 +922,7 @@ section{
     background-color: var(--light-text);
     border-radius: 50%;
     border: 0.4rem solid var(--light-text);
-    padding: 4rem;
+    padding: 3rem;
 }
 
 .about_team .about-icon-border:hover{
