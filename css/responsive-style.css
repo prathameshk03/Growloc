@@ -106,4 +106,8 @@
     .banner_section .carousel-item{
         height: 75vh;
     }   
+
+    .about_team .white{
+        display: none;
+    }
 }
