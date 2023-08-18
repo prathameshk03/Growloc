@@ -81,12 +81,20 @@
         margin: auto;
         height: 250px;
     }
+    .blog-post-img{
+        width: 90%;
+        margin: auto;
+        height: 200px;
+    }
     .post-content{
         margin-top: 10rem !important;
     }
     .post{
         width: 90%;
         margin: auto;
+    }
+    .post-blog-links .post-box{     
+        height: fit-content;
     }
 }
 

@@ -168,7 +168,8 @@ button:hover{
 
 section{
     padding: 5rem 0;
-    scroll-snap-align: center;      /*scroll anchor*/}
+    scroll-snap-align: center;      /*scroll anchor*/
+}
 
 .products .row,
 .contact .row{                     /*scroll anchor*/
@@ -1076,6 +1077,7 @@ section{
     box-shadow: 0 4px 14px grey;
     padding: 15px;
     border-radius: 0.5rem;
+    scroll-snap-align: center;      /*scroll anchor*/
 }
 
 .post-box:hover{
@@ -1185,6 +1187,15 @@ section{
     object-fit: cover;
     object-position: center;
 }
+
+.blog-post-img{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    object-position: center;
+    scroll-snap-align: center;      /*scroll anchor*/
+}
+
 .post-content{
     margin-top: 10rem !important;
     width: 80%;
@@ -1192,12 +1203,14 @@ section{
 }
 .sub-heading{
     font-size: 1.8rem;
+    scroll-snap-align: center;      /*scroll anchor*/
 }
 .post-text{
     font-size: 1.5rem;
     line-height: 1.9rem;
     margin: 1rem 0;
     text-align: justify;
+    scroll-snap-align: center;      /*scroll anchor*/
 }
 
 .share{
@@ -1229,6 +1242,10 @@ section{
 .post-blog-links{
     width: 80%; 
     margin: auto;
+}
+
+.post-blog-links .post-box{     
+    height: 100%;
 }
 
 /*Up arrow*/
